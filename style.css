@@ -19,7 +19,10 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #66ccff;
+    color: white;
+    font-family: sans;
+    font-weight: bold;
+    font-size: 21px;
 }
 
 div.scoreBoard {
