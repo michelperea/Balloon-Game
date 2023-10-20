@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,28 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balloon Game</title>
+    
+    <!-- Agregamos Bootstrap como CDN para hacerlo responsivo -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Enlazamos nuestro archivo CSS personalizado -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Balloon Game</h1>
-    <button id="myBtn">Rules</button>
+    <!-- Usamos las clases de Bootstrap para el encabezado -->
+    <h1 class="display-4 text-center text-white">Balloon Game</h1>
+    
+    <!-- Botón para mostrar las reglas -->
+    <button id="myBtn" class="btn btn-primary">Rules</button>
 
+    <!-- Modal con Bootstrap para mostrar las reglas -->
+    <div id="myModal" class="modal">
 
-<div id="myModal" class="modal">
+        <div class="modal-content">
+            <!-- Botón para cerrar el modal -->
+            <span class="close">&times;</span>
+            <p> 
+                <b>1. Hover on Balloons To Score a Point</b>
+                <br>
+                <b>2. Game Will Over when zero Balloons left</b>
+            </p>
+        </div>
 
+    </div>
 
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p> 
-         <b>1.Hover on Balloons To Score a Point</b>
-         <br>
-         <b>2.Game Will Over when zero Balloons left</b>
-    </p>
-  </div>
+    <!-- Contenedor del juego con Bootstrap para hacerlo responsivo -->
+    <div class="game container"></div>
 
-</div>
-    <div class="game"></div>
+    <!-- Agregamos Bootstrap como CDN para los scripts y jQuery (necesario para Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <!-- Enlazamos nuestro archivo JavaScript personalizado -->
     <script src="script.js"></script>
 </body>
 </html>
