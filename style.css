@@ -18,7 +18,15 @@ h1 {
 }
 
 div.scoreBoard {
-    height: 9px;
+    height: 33px;
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: 900;
+    text-align: center;
+    border: outset;
+    margin: 3px;
+    text-align: -webkit-center;
 }
 
 /* Estilo para el modal con un fondo negro transparente */
@@ -63,8 +71,10 @@ div.scoreBoard {
 .game {
     width: 90%;
     margin: auto;
-    border: 6px solid #336699;
+    border: 9px solid #13a8fe;
     text-align: center;
+    border-radius: 3%;
+    
 }
 }
 
