@@ -59,8 +59,11 @@ h1 {
 /* Estilo para el marcador de puntuación en un tono de azul oscuro */
 .scoreBoard {
     background-color: #000033;
-    color: #66ccff;
+    color: white;
     padding: 10px;
+    font-family: sans-serif, auto;
+    font-weight: 600
+    
 }
 
 /* Estilo para el tablero de juego en un tono de azul más claro */
