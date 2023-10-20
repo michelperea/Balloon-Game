@@ -17,6 +17,11 @@ h1 {
     color: #66ccff;
 }
 
+h2 {
+    text-align: center;
+    color: #66ccff;
+}
+
 div.scoreBoard {
     height: 33px;
     color: white;
