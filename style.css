@@ -24,7 +24,6 @@ div.scoreBoard {
     font-size: larger;
     font-weight: 900;
     text-align: center;
-    border: outset;
     margin: 3px;
     text-align: -webkit-center;
 }
@@ -71,9 +70,9 @@ div.scoreBoard {
 .game {
     width: 90%;
     margin: auto;
-    border: 9px solid #13a8fe;
+    border: 6px solid #13a8fe;
     text-align: center;
-    border-radius: 3%;
+    border-radius: 2%;
     
 }
 }
