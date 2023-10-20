@@ -51,8 +51,9 @@ h1 {
 .game {
     width: 90%;
     margin: auto;
-    border: 1px solid #336699;
+    border: 6px solid #336699;
     text-align: center;
+}
 }
 
 /* Estilo para el marcador de puntuación en un tono de azul oscuro */
@@ -121,7 +122,7 @@ h1 {
     border-radius: 5px;
     margin: 10px;
     display: flex;
-    margin: auto 0 3% 42%;
+    margin: auto 0 3% 43%;
     align-items: center;
     justify-content: center;
 }
