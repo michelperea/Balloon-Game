@@ -1,133 +1,33 @@
-/* Establecemos el color de fondo del cuerpo en tono azul degradado */
-body {
-    background: linear-gradient(to bottom, #000033, #000066, #000099, #0000CC, #0000FF);
-}
 
-/* Estilo para los encabezados en un tono azul claro */
-h1 {
-    text-align: center;
-    color: #66ccff;
-    margin: 0; /* Eliminamos el margen superior para centrar */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloon Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Balloon Game</h1>
+    <button id="myBtn">Rules</button>
 
-/* Estilo para el modal con un fondo negro transparente */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.6);
-}
 
-/* Estilo para el contenido del modal en un tono de azul más claro */
-.modal-content {
-    background-color: #3399cc;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #336699;
-    width: 80%;
-    max-width: 500px; /* Reducimos el ancho máximo al 80% del contenedor */
-}
+<div id="myModal" class="modal">
 
-/* Estilo para el botón de cierre en un tono de azul claro */
-.close {
-    color: #66ccff;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
 
-/* Cambiamos el color del botón de cierre al pasar el cursor sobre él o al enfocarlo a un azul más oscuro */
-.close:hover, .close:focus {
-    color: #336699;
-    text-decoration: none;
-    cursor: pointer;
-}
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p> 
+         <b>1.Hover on Balloons To Score a Point</b>
+         <br>
+         <b>2.Game Will Over when zero Balloons left</b>
+    </p>
+  </div>
 
-/* Estilos generales para el juego con un fondo de tono azul claro */
-.game {
-    width: 79%; /* Reducimos el ancho al 79% para centrarlo y darle el 21% de reducción */
-    margin: auto;
-    border: 1px solid #336699;
-    text-align: center;
-}
+</div>
+    <div class="game"></div>
 
-/* Estilo para el marcador de puntuación en un tono de azul oscuro */
-.scoreBoard {
-    background-color: #000033;
-    color: #66ccff;
-    padding: 10px;
-}
-
-/* Estilo para el tablero de juego en un tono de azul más claro */
-.gameBoard {
-    background-color: #66ccff;
-    height: 500px;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Estilo para mensajes en un tono de azul más claro */
-.message {
-    background-color: #99ccff;
-    padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/* Estilos para los botones con un tono de azul oscuro */
-.btn {
-    display: block;
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 1.5em;
-    background-color: #000033;
-    color: #66ccff;
-}
-
-/* Estilos para los elementos "bubble" y "baddy" en un tono de azul más oscuro */
-.bubble, .baddy {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    line-height: 30px;
-    font-size: 1.2em;
-    color: #66ccff;
-    position: absolute;
-    left: 50%;
-    top: 100px;
-    cursor: crosshair;
-}
-
-/* Estilo para el elemento "Rules" */
-#myBtn {
-    background-color: #336699;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 10px;
-    display: block;
-    margin: auto;
-}
-
-/* Estilo para el botón "Click Start" */
-.start-btn {
-    background-color: #33cc33;
-    color: #fff;
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.5em;
-    cursor: pointer;
-    border-radius: 25px;
-    display: block;
-    margin: 20px auto;
-}
+    <script src="script.js"></script>
+</body>
+</html>
