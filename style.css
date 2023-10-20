@@ -121,7 +121,7 @@ h1 {
     cursor: pointer;
     border-radius: 5px;
     display: flex;
-    margin: auto;
+    margin: auto 0% 3% 0%;
     align-items: center;
     justify-content: center;
 }
