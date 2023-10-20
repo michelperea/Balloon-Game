@@ -1,34 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Configuración de la página -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balloon Game</title>
+
+    <!-- Enlaza el archivo CSS personalizado -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Encabezado de la página -->
     <h1>Balloon Game</h1>
 
+    <!-- Modal para mostrar las reglas del juego -->
+    <div id="myModal" class="modal">
+        <!-- Contenido del modal -->
+        <div class="modal-content">
+            <!-- Botón para cerrar el modal -->
+            <span class="close">&times;</span>
+            <!-- Reglas del juego -->
+            <p>
+                <b>1. Hover on Balloons To Score a Point</b>
+                <br>
+                <b>2. Game Will Over when zero Balloons left</b>
+            </p>
+        </div>
+    </div>
 
-<div id="myModal" class="modal">
-
-
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p> 
-         <b>1.Hover on Balloons To Score a Point</b>
-         <br>
-         <b>2.Game Will Over when zero Balloons left</b>
-    </p>
-  </div>
-
-</div>
+    <!-- Contenedor principal del juego -->
     <div class="game"></div>
-        <button id="myBtn">Rules</button>
 
+    <!-- Botón para mostrar las reglas -->
+    <button id="myBtn">Rules</button>
 
+    <!-- Enlaza el archivo JavaScript personalizado -->
     <script src="script.js"></script>
 </body>
 </html>
