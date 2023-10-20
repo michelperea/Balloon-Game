@@ -17,6 +17,10 @@ h1 {
     color: #66ccff;
 }
 
+div.scoreBoard {
+    height: 9px;
+}
+
 /* Estilo para el modal con un fondo negro transparente */
 .modal {
     display: none;
