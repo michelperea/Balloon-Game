@@ -1,15 +1,15 @@
-/* Aplicamos las clases de Bootstrap para hacerlo responsivo */
+/* Establecemos el color de fondo del cuerpo en tono azul degradado */
 body {
-    background-color: brown;
+    background: linear-gradient(to bottom, #000033, #000066, #000099, #0000CC, #0000FF);
 }
 
-/* Estilo para los encabezados usando Bootstrap */
+/* Estilo para los encabezados en un tono azul claro */
 h1 {
     text-align: center;
-    color: azure;
+    color: #66ccff;
 }
 
-/* Estilo para el modal con Bootstrap */
+/* Estilo para el modal con un fondo negro transparente */
 .modal {
     display: none;
     position: fixed;
@@ -20,65 +20,64 @@ h1 {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* Estilo para el contenido del modal con Bootstrap */
+/* Estilo para el contenido del modal en un tono de azul más claro */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #3399cc;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #336699;
     width: 80%;
 }
 
-/* Estilo para el botón de cierre en el modal con Bootstrap */
+/* Estilo para el botón de cierre en un tono de azul claro */
 .close {
-    color: #aaaaaa;
+    color: #66ccff;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-/* Cambiamos el color del botón de cierre al pasar el cursor sobre él o al enfocarlo con Bootstrap */
+/* Cambiamos el color del botón de cierre al pasar el cursor sobre él o al enfocarlo a un azul más oscuro */
 .close:hover, .close:focus {
-    color: #000;
+    color: #336699;
     text-decoration: none;
     cursor: pointer;
 }
 
-/* Estilos generales para el juego con Bootstrap */
+/* Estilos generales para el juego con un fondo de tono azul claro */
 .game {
     width: 90%;
     margin: auto;
-    border: 1px solid black;
+    border: 1px solid #336699;
     text-align: center;
 }
 
-/* Estilo para el marcador de puntuación con Bootstrap */
+/* Estilo para el marcador de puntuación en un tono de azul oscuro */
 .scoreBoard {
-    background-color: rgb(15, 15, 15);
-    color: white;
+    background-color: #000033;
+    color: #66ccff;
     padding: 10px;
 }
 
-/* Estilo para el tablero de juego con Bootstrap */
+/* Estilo para el tablero de juego en un tono de azul más claro */
 .gameBoard {
-    background-color: paleturquoise;
+    background-color: #66ccff;
     height: 500px;
     position: relative;
     overflow: hidden;
 }
 
-/* Estilo para mensajes con Bootstrap */
+/* Estilo para mensajes en un tono de azul más claro */
 .message {
-    background-color: darkkhaki;
+    background-color: #99ccff;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Estilos para los botones con Bootstrap */
+/* Estilos para los botones con un tono de azul oscuro */
 .btn {
     display: block;
     width: 100%;
@@ -86,16 +85,18 @@ h1 {
     padding: 10px;
     border-radius: 20px;
     font-size: 1.5em;
+    background-color: #000033;
+    color: #66ccff;
 }
 
-/* Estilos para los elementos "bubble" y "baddy" con Bootstrap */
+/* Estilos para los elementos "bubble" y "baddy" en un tono de azul más oscuro */
 .bubble, .baddy {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     line-height: 30px;
     font-size: 1.2em;
-    color: white;
+    color: #66ccff;
     position: absolute;
     left: 50%;
     top: 100px;
