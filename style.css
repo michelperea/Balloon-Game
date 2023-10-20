@@ -1,86 +1,103 @@
-body{
+/* Aplicamos las clases de Bootstrap para hacerlo responsivo */
+body {
     background-color: brown;
 }
-h1{
+
+/* Estilo para los encabezados usando Bootstrap */
+h1 {
     text-align: center;
     color: azure;
 }
 
+/* Estilo para el modal con Bootstrap */
 .modal {
-    display: none; 
+    display: none;
     position: fixed;
-    z-index: 1; 
-    padding-top: 100px; 
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4); 
-  }
-  
-  .modal-content {
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Estilo para el contenido del modal con Bootstrap */
+.modal-content {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-  }
+}
 
-  .close {
+/* Estilo para el botón de cierre en el modal con Bootstrap */
+.close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+/* Cambiamos el color del botón de cierre al pasar el cursor sobre él o al enfocarlo con Bootstrap */
+.close:hover, .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
-.game {
-    width:90%;
-    margin:auto;
-    border: 1px solid black;
-    text-align:center;
 }
-.scoreBoard{
-    background-color:rgb(15, 15, 15);
-    color:white;
-    padding:10px;
-}
-.gameBoard{
-    background-color:paleturquoise;
-    height:500px;
-    position:relative;
-    overflow:hidden;
-}
-.message{
-    background-color:darkkhaki;
-    padding:10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-.btn{
-    display:block;
-    width:100%;
-    height:50px;
-    padding:10px;
-    border-radius:20px;
-    font-size:1.5em;
-}
-.bubble, .baddy{
-    width:30px;
-    height:30px;
 
-    border-radius:50%;
-    line-height:30px;
-    font-size:1.2em;
-    color:white;
-    position:absolute;
-    left:50%;
-    top:100px;
-    cursor:crosshair;
+/* Estilos generales para el juego con Bootstrap */
+.game {
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* Estilo para el marcador de puntuación con Bootstrap */
+.scoreBoard {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 10px;
+}
+
+/* Estilo para el tablero de juego con Bootstrap */
+.gameBoard {
+    background-color: paleturquoise;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilo para mensajes con Bootstrap */
+.message {
+    background-color: darkkhaki;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos para los botones con Bootstrap */
+.btn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+/* Estilos para los elementos "bubble" y "baddy" con Bootstrap */
+.bubble, .baddy {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    font-size: 1.2em;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    cursor: crosshair;
 }
